@@ -31,7 +31,7 @@ public class VIPCustomer extends Customer{
         this.agentNum = agentNum;
     }
 
-    public void buy(){
+    public void buy2(){
         int total = getBonus() + (int)(15000 * getBonusratio());
         setBonus(total);
         System.out.println(getName() + "님이 15000원 제품을 구매시");

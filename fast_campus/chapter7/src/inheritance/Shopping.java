@@ -23,14 +23,14 @@ public class Shopping {
         for(Customer c : list){
             if(c instanceof VIPCustomer){
                 VIPCustomer v = (VIPCustomer)c;
-                v.buy();
+                v.buy2();
             }
-            else if(c instanceof VIPCustomer){
+            else if(c instanceof GoldCustomer){
                 GoldCustomer g = (GoldCustomer)c;
-                g.buy();
+                g.buy3();
             }
             else{
-                c.buy();
+                c.buy1();
             }
         }
     }

@@ -58,7 +58,7 @@ public class Customer {
         this.bonus = bonus;
     }
 
-    public void buy(){
+    public void buy1(){
         int total = getBonus() + (int)(15000 * getBonusratio());
         setBonus(total);
         System.out.println(getName() + "님이 15000원 제품을 구매시");

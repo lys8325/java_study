@@ -18,7 +18,7 @@ public class GoldCustomer extends Customer{
         this.salesratio = salesratio;
     }
 
-    public void buy(){
+    public void buy3(){
         int total = getBonus() + (int)(15000 * getBonusratio());
         setBonus(total);
         System.out.println(getName() + "님이 15000원 제품을 구매시");
